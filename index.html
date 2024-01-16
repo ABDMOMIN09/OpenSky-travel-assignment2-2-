@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OpenSky Journeys</title>
+    <link rel="icon" href="Images/favicon.ico">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
 </head>
 <body>
    <header>
     <nav>
-     <img src="Images/Group 40071 (2).png" alt="">
-        <h3 class="nav-title">OpenSky Journeys</h3>
+    <div id="logo">
+        <img src="Images/Group 40071 (2).png" alt="">
+        <h3 class="nav-title"><span><b>OpenSky</b></span> Journeys</h3>
+    </div>
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Packages</a></li>
@@ -51,7 +55,7 @@
         <p>
             Remember to customize these tour examples based on the interests and preferences of your target audience.
         </p>
-        <button>Read More</button>
+        <button class="read-more">Read More</button>
 
     </div>
     <div>
@@ -143,8 +147,9 @@
                 <li>
                     "Escape to simplicity, where every corner offers a perfect place to get lost."</li>
                 <li>"Discover serenity in simplicity, a perfect place where getting lost feels found."</li>
+                <li>"Journey into simplicity, where every step leads to a new revelation."</li>
             </ul>
-            <button type="button">See More</button>
+            <button class="read-more" type="button">See More</button>
     </div>
 
 
@@ -159,13 +164,13 @@
 
 <!-- Newsletter start -->
     <main class="Newsletter">
-      <div >
+      <div class="news-div">
         <h1>Newsletter</h1>
         <p>Get your daily dose of travel news & tips. Sign up today!</p><hr>
         <div class="news-inpt">
-            <input placeholder="Enter your name" type="text">
-            <input placeholder="Enter your email" type="text">
-           <button>Subscribe</button>
+            <input class="text-input" placeholder="Enter your name" type="text">
+            <input  class="text-input"  placeholder="Enter your email" type="text">
+           <button id="sub-btn">Subscribe</button>
         </div>
 
 
@@ -178,7 +183,22 @@
      </main>
 <!-- Newsletter end  -->
 <footer>
-    <h1>OpenSky</h1>
+    <div class="foot-all">
+      <div class="hero">
+        <img src="Images/Group 40071 (2).png" alt="">
+        <h1><span><b>OpenSky</b></span> Journeys</h1>
+      </div>
+      <p class="footer-description">"Curate your escape with us – where simplicity becomes the perfect journey. Get lost, find joy."
+      </p>
+      <div class="social-icon">
+        <img src="Images/Linkedin.png" alt="">
+        <img src="Images/Instagram.png" alt="">
+        <img src="Images/Facebook.png" alt="">
+        <img src="Images/Twitter.png" alt="">
+      </div>
+      <hr>
+      <p class="copy" >2017, All Rights Reserved.</p>
+    </div>
 </footer>
 </body>
 </html>
