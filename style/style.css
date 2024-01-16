@@ -1,0 +1,261 @@
+
+/* nav section start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: var(--Dark-01, #131313);
+    font-size: 36px;
+    font-weight: 800;
+}
+nav > ul {
+    display: flex;
+    /* justify-content: space-between; */
+}
+nav  li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 18px;
+}
+nav li a{
+    text-decoration: none;
+    color: #424247;
+}
+/* nav section end  */
+
+/* BAnner section start ? */
+.banner{
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+height: 500px;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+/* flex-shrink: 0; */
+margin-left:230px ;
+margin-top: 100px;
+}
+.banner-info{
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 106px;
+
+}
+.banner-input{
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
+.banner-info h1{
+    color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.banner-info p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+}
+.banner-btn{
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+}
+.banner-btn-clr{
+    border-radius: 8px;
+background: #FF5400;
+}
+/* BAnner section end  */
+/* <!-- Our Popular Tours start --> */
+.tour-container{
+    display: flex;
+    margin: 100px ;
+    /* margin-top:100px ; */
+    justify-content: center;
+}
+.tour-container h1{
+    color: #131318;
+    text-align: start;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.tour-container p{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 577px;
+}
+.tour-container ul>li{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */ 
+    width: 525px;
+}
+/* Our Popular Tours end  */
+
+
+/* Choose Your Destination  start */
+.Destination{
+    margin: 100px ;
+    justify-content: center;
+    align-items: center;
+}
+/* .desti-gellary{
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 16px;
+} */
+.desti-title{
+    text-align: center;
+}
+.desti-title h1{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.desti-title p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+/* Choose Your Destination end   */
+
+/* Why Choose Us start  */
+.choose-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.row1{
+    display: flex;
+}
+.box-size{
+    width: 573px;
+height: 284px;
+
+}
+.for-box h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;  
+}
+.for-box p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.hh{
+    background: rgba(251, 181, 99, 0.05);
+border-radius: 16px;
+border-style: solid;
+border-color: rgba(251, 181, 99, 0.20);
+border-width: 1px;
+width: 573px;
+height: 284px;
+position: relative;
+}
+.wcs{
+    background: rgba(41, 206, 246, 0.05);
+    border-radius: 16px;
+    border-style: solid;
+    border-color: rgba(41, 206, 246, 0.20);
+    border-width: 1px;
+    width: 573px;
+    height: 284px;
+    position: relative;
+}
+.bpg{
+    background: rgba(233, 68, 68, 0.05);
+    border-radius: 16px;
+    border-style: solid;
+    border-color: rgba(233, 68, 68, 0.20);
+    border-width: 1px;
+    width: 573px;
+    height: 284px;
+    position: relative;
+
+
+}
+
+
+/* Why Choose Us end  */
+
+
+
+
+/* <!-- A Simple Perfect Place To Get Lost Start  --> */
+.get-lost{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+
+
+/* <!-- A Simple Perfect Place To Get Lost end  --> */
+/* Newsletter start  */
+.Newsletter{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.news-inpt{
+    display: grid;
+    gap: 10px;
+}
+
+/* Newsletter end  */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+width: 1440px;
+height: 502px;
+position: relative;
+}
