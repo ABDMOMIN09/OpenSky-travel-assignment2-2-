@@ -1,10 +1,40 @@
 
-/* nav section start */
 @media screen and (max-width:600px) {
+    /* nav section start */
     nav > ul {
-        display: grid;
+        display: none;
         /* justify-content: space-between; */
+    }
+    /* nav section end  */
+/* banner section  */
+.banner-input{
+  display: flex; 
+  flex-direction: column;
+  width: 100%;
+  /* padding: 0; */
+
 }
+.banner-input input{
+    width: 100%;
+}
+.banner-info h1{
+font-size: 25px;
+}
+.banner-info {
+    padding-bottom: 50px;
+}
+/* Popular Tours section  */
+.tour-container,.desti-gellary .row,.row1,.get-lost,.Newsletter{
+grid-template-columns: repeat(1,1fr) !important;
+
+}
+.footer-description,.social-icon{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* gap: ; */
+}
+
+
 }
     
-/* nav section end  */
+
